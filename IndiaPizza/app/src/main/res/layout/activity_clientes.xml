@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientesActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:text="Bienvenidos a IndiaPizza, la pizza mas sabrosas de dudoda procedencia"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mete el nombre"
+        android:textSize="32dp"
+        />
+
+    <EditText
+        android:id="@+id/txtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Mete la direccion"
+        android:textSize="32dp"
+        />
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mete el telefono"
+        android:textSize="32dp"
+        />
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mete el correo"
+        android:inputType="textEmailAddress"
+        android:textSize="32dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Que chilleeeeeeee"
+        android:onClick="InsertarCliente"
+        android:textSize="32dp"
+        />
+</LinearLayout>

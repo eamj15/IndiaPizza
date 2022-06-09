@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IndiaPizza</string>
+    <integer name="db_version">1</integer>
+</resources>
